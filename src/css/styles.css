@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: black;
+    margin: 10px;
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+}
+.App{
+ display: flex;
+ width: 100vw;
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+ background-color: black;
+}
+#quote-box{
+    width: 500px;
+    padding: 50px;
+    border-radius: 10%;
+    background-color: whitesmoke;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+}
+
+.App .button,
+#quote-tweet{
+    color: gray;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+}
+#tweet-quote{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    margin-left: 5px;
+    border-radius: 10px;
+}
